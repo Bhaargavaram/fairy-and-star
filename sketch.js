@@ -21,7 +21,7 @@ function preload()
 
 function setup() {
 	createCanvas(800, 750);
-       fairyVoice.resume();
+      
 	fairyVoice.play();
 
 	fairy = createSprite(130, 520);
